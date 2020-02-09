@@ -11,10 +11,10 @@ public class Main {
         try {
             n = Integer.parseInt(input);
         } catch (NumberFormatException e) {
-            System.out.println("Please insert an Integer between 2 and 10000.");
+            System.out.println("Please insert an Integer between 3 and 10000.");
         }
 
-        if (n < 2 || n >= 10000) throw new IllegalArgumentException("Integer value out of scope!");
+        if (n < 3 || n >= 10000) throw new IllegalArgumentException("Integer value out of scope!");
 
         print(n);
     }
